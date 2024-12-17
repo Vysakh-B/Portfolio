@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container4
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.heads{
+    width: 230px;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    text-align: right;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-top: 44px;
+    color:  rgb(59, 118, 59);
+    font-family: 'Audiowide';
+}
+.set{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.service{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+color: rgb(59, 118, 59); /* Text/icon color */
+ /* Font size for the project name */
+font-weight: bolder;
+font-family: 'AudioWide';
+box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+
+}
+.grp{
+    width: 20%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+color: rgb(59, 118, 59); /* Text/icon color */
+ /* Font size for the project name */
+font-weight: bolder;
+font-family: 'AudioWide';
+
+}
+.namesd{
+    margin-top: 20px;
+}
+
+@media (max-width:1024px) {
+
+    .namesd{
+        font-size: 18px;
+    }
+    .grp{
+        width: 30%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    color: rgb(59, 118, 59); /* Text/icon color */
+     /* Font size for the project name */
+    font-weight: bolder;
+    font-family: 'AudioWide';
+    
+    }
+
+    
+}
+@media (max-width:768px) {
+    .namesd{
+        font-size: 16px;
+    }
+    .grp{
+        width: 25%;
+        height: 40%;
+    }
+    .set{
+        width: 100vw;
+        height: 70%;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: space-evenly;
+    }
+ 
+  
+}
+@media (max-width:480px) {
+    .namesd{
+        font-size: 16px;
+    }
+    .grp{
+        width: 70%;
+        height: 70%;
+    }
+   
+    .set{
+        width: 100vw;
+        height: 70%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .service{
+        width: 90%;
+        height: 90%;
+        background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    color: rgb(59, 118, 59); /* Text/icon color */
+     /* Font size for the project name */
+    font-weight: bolder;
+    font-family: 'AudioWide';
+    box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+    
+    }
+  
+ 
+    }
+    @media (max-width:320px){
+      
+    }  
+
+
+
+
+
+
+
+
+
+
+
+

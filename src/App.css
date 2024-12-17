@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .app-container {
+    display: flex; /* Flexbox layout to align sidebar and content */
+    height: 100vh;
+    flex-direction: row;
+    /* overflow-x: hidden; */
+  }
+  
+  .sideBar__container {
+    width: 260px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .main-content {
+    margin-left: 290px; /* Space for sidebar */
+    flex-grow: 1; /* Allow content to grow and fill available space */
+    /* padding: 8px; */
+    overflow-y: auto; /* Scrollable content if necessary */
+    background-color: #f4f4f4;
+    /* Ensures the content takes up remaining space */
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    right: 0;
+  }
+  .main-content > div {
+    padding: 27px;
+    border-bottom: 1px solid #767575;
+  }
+  @media (max-width:1024px) {
+    .sideBar__container {
+     display: none;
+    }
+    .main-content {
+      margin: 0;
+      background-color: transparent;
+      padding: 0;
+    }
+    .main-content > div {
+      padding: 27px;
+      border-bottom: 1px solid #767575;
+    }
+    }
+    @media (max-width:920px) {
+      
+      .main-content > div {
+        padding: 0;
+        border-bottom: 1px solid #767575;
+      }
+    }
+
+  

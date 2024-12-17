@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container5
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headset{
+    /* width: 450px; */
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    text-align: right;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-top: 44px;
+    color:  rgb(59, 118, 59);
+    font-family: 'Audiowide';
+}
+.MailBox{
+    width: 60%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+
+
+}
+.emails{
+     height: 50px;
+     margin-top: 30px;
+    font-family: 'Archivo Narrow';
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+
+
+
+}
+.contents{
+    height: 100px;
+    margin-top: 30px;
+    font-family: 'Archivo Narrow';
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+}
+
+@media (max-width:1024px) {
+    .headset{
+        /* width: 540px; */
+        background-color:transparent;
+    }
+    .MailBox{
+        width: 60%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    
+
+}
+
+@media (max-width:768px) {
+    .headset{
+        /* width: 400px; */
+        background-color:transparent;
+    }
+    .MailBox{
+        width: 60%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width:475px) {
+    .headset{
+        /* width: 270px; */
+        background-color:transparent;
+    }
+}
+@media (max-width:320px) {
+    .headset{
+        /* width: 270px; */
+        background-color:transparent;
+    }
+    .MailBox{
+        width: 80%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    form{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+    
+    
+    }
+    .emails{
+         height: 50px;
+         margin-top: 30px;
+        font-family: 'Archivo Narrow';
+        padding: 10px;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+    
+    
+    
+    }
+    .contents{
+        height: 100px;
+        margin-top: 30px;
+        font-family: 'Archivo Narrow';
+        padding: 10px;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(59, 118, 59, 0.5); /* Subtle green shadow */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

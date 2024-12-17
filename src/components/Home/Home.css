@@ -1,0 +1,253 @@
+html{
+    overflow-y: hidden;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+.container{
+    overflow-y: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 100vh;
+   flex-grow: 1;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.collector{
+width: 100%;
+height: 400px;
+/* background-color: aqua; */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.desc{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 43px;
+    font-weight: bolder;
+    font-family: 'Audiowide', sans-serif;
+    
+}
+
+.pic{
+ /* background-color: aliceblue; */
+ background-image: url('../../assets/images/developer.jpeg');
+ width: 50%;
+ background-position: center top; /* Focus on the top part */
+    background-size: cover; /* Ensures the image covers the container */
+    background-repeat: no-repeat; /* Prevents tiling */
+}
+span {
+    display: inline-block;
+    color: rgb(59, 118, 59);
+    margin: 0;
+    width: 370px;
+  white-space: nowrap; /* Prevents wrapping */
+  position: relative; /* Keeps it positioned based on its normal flow */
+  left: 0;
+  text-align: left;
+    
+  }
+.variable{
+    
+    color: rgb(59, 118, 59);
+    visibility: visible;    /* Ensure it's visible */
+    opacity: 1;
+}
+@media (max-width:1024px) {
+    .container{
+        overflow-y: hidden;
+        
+        width: 100%;
+        height: 100vh;
+       flex-grow: 1;
+        
+    }
+    .collector{
+width: 100%;
+height: 400px;
+/* background-color: aqua; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-right: 20px;
+}
+.desc{
+    width: 100%;
+    font-size: 40px;
+    font-weight: bolder;
+    /* text-align: left; */
+    
+    
+}
+
+.pic{
+display: none;
+}
+span {
+    display: inline-block;
+    color: rgb(59, 118, 59);
+    margin: 0;
+    width: auto;
+  white-space: nowrap; /* Prevents wrapping */
+  position: relative; /* Keeps it positioned based on its normal flow */
+  left: 0;
+  /* text-align: left; */
+ }
+.variable{
+    width: 345px;
+    color: rgb(59, 118, 59);
+    visibility: visible;    /* Ensure it's visible */
+    opacity: 1;
+}
+}
+
+@media (max-width:768px) {
+    .container{
+        overflow-y: hidden;
+        
+        width: 100vw;
+        height: 100vh;
+       flex-grow: 1;
+        
+    }
+    .collector{
+        width: 100vw;
+        height: 400px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       margin: 0;
+        }
+    .desc{
+        width: 70%;
+        font-size: 30px;
+        font-weight: bolder;
+        /* text-align: left; */
+        
+        
+    }
+    
+    .pic{
+    display: none;
+    }
+    span {
+        display: inline-block;
+        color: rgb(59, 118, 59);
+        margin: 0;
+        width: auto;
+      white-space: nowrap; /* Prevents wrapping */
+      position: relative; /* Keeps it positioned based on its normal flow */
+      left: 0;
+      /* text-align: left; */
+      
+    
+        
+      }
+    .variable{
+        width: 255px;
+        color: rgb(59, 118, 59);
+        visibility: visible;    /* Ensure it's visible */
+        opacity: 1;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        overflow-y: hidden;
+        width: 100vw;
+        height: 100vh;
+       flex-grow: 1;
+        
+    }
+    span {
+        display: inline-block;
+        color: rgb(59, 118, 59);
+        margin: 0;
+        width: auto;
+      white-space: nowrap; /* Prevents wrapping */
+      position: relative; /* Keeps it positioned based on its normal flow */
+      left: 0;
+      /* text-align: left; */
+      
+    
+        
+      }
+    .variable{
+        width: 215px;
+        color: rgb(59, 118, 59);
+        visibility: visible;    /* Ensure it's visible */
+        opacity: 1;
+    }
+    .desc{
+        width: 70%;
+        font-size: 25px;
+        font-weight: bolder;
+        /* text-align: left; */
+        
+        
+    }
+    
+}
+@media (max-width:320px) {
+    .container{
+        overflow-y: hidden;
+        width: 100vw;
+        height: 100vh;
+       flex-grow: 1;
+        
+    }
+    span {
+        display: inline-block;
+        color: rgb(59, 118, 59);
+        margin: 0;
+        width: auto;
+      white-space: nowrap; /* Prevents wrapping */
+      position: relative; /* Keeps it positioned based on its normal flow */
+      left: 0;
+      /* text-align: left; */
+      
+    
+        
+      }
+    .variable{
+        width: 205px;
+        color: rgb(59, 118, 59);
+        visibility: visible;    /* Ensure it's visible */
+        opacity: 1;
+    }
+    .desc{
+        width: 70%;
+        font-size: 25px;
+        font-weight: bolder;
+        /* text-align: left; */
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
